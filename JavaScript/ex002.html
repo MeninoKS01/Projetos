@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu primeiro programa!</title>
+        <style>
+            body {
+                background-color: #6868b1;
+                color: white; /*Comentário em CSS */
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Olá, mundo!</h1> <!--Isso é um comentário-->
+        <p>Já livrei da maldição.</p>
+
+        <script>
+            /*
+            var nome = window.prompt("Qual é seu nome?") //Vai perguntar o nome...
+            window.alert("É um grande prazer em te conhecer, " + nome + "!") //Concatenação
+            */
+
+            var n1 = Number(window.prompt("Digite um número: ")) //Valor string
+            var n2 = Number(window.prompt("Digite outro número: ")) //Valor string
+            var s = n1 + n2
+            window.alert(`A soma de ${n1} e ${n2} é igual a ${s}`)
+
+            // (number + number) para adição
+            // (string + string) para concatenação
+
+            // Number para String == String(n) | n.toString()
+            //String para Number == Number(n) | Number.parseInt() | Number.parseFloat
+            
+            //Formatação por template string `exemplo ${n}`
+            //n.length (quantidade de caracteres na string)
+            //n.toUpperCase() (tudo para 'MAIÚSCULA')
+            //n.toLowerCase() (tudo para 'minúscula')
+
+        </script>
+
+    </body>
+
+</html>
